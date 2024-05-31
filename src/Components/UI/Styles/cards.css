@@ -1,0 +1,32 @@
+.list-card-holder{
+    text-align: center;
+    padding: 20px;
+}
+
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px solid black;
+    margin: 0px 10px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.single-card-holder{
+    
+}
+
+.image-card{
+    height: 50px;
+    width: 80%;
+}
