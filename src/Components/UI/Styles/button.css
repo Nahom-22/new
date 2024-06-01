@@ -1,0 +1,17 @@
+.btn {
+    width: 120px;
+    height: 42px;
+    border: 1.8px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white
+}
+
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    transition: .3s ease-out;
+}

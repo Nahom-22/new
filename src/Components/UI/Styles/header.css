@@ -1,0 +1,16 @@
+.header-holder{
+    margin:0;
+    text-align: center;
+    background-color: rgb(255, 247, 231);
+}
+
+.header-items{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-right{
+    text-align: right;
+    justify-content: right;
+}

@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list-holder{
+    display: flex;
+    margin: 3px;
+}
+
+.navbar-list-item{
+  padding: 5px;   
+}

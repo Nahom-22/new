@@ -1,15 +1,13 @@
-
-import Cards from './Components/Cards/Cards';
-
-
-
+import Cards from "./Components/Cards/Cards";
+import Header from "./Components/Layout/Header/Header";
 
 function App() {
-   return (
+  return (
     <div className="App">
       <header className="App-header">
-           <Cards />
-           </header>
+        <Header />
+        <Cards />
+      </header>
     </div>
   );
 }

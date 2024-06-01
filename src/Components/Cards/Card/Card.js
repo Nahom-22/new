@@ -2,11 +2,16 @@ import React from "react"
 import '../../UI/Styles/card.css'
 
 
-import image1 from '../../../Assets/pexels-madebymath-331684.jpg';
+import image1 from '../../../Assets/pexels-monoar-rahman-22660-109371.jpg';
+import Button from "../../UI/Button/Button";
 
 
 
 const Card=(props)=>{
+  const handleClick=(e)=>{
+     e.preventDefault();
+     console.log("Clicked add")
+  }
     return(
         <React.Fragment>
            <div className="outer-card-holder">
@@ -19,8 +24,9 @@ const Card=(props)=>{
                     <h3 className="title-card">{props.item.name}</h3>
                   </div>
                   <div className="description-card-holer">
-                    <p className="description-card">{props.item.description}</p>
+                    <h5 className="description-card">{props.item.description}</h5>
                   </div>
+                  <Button type="button" className="button-card" onClick={handleClick} buttonName="ADD" />
                 </div>
             </div>
            </div>
